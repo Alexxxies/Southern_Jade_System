@@ -1,0 +1,77 @@
+
+.toolbar {
+    text-align: center;
+    --ion-color-light: #9cf29e;
+    display: inline-block;
+}
+.toolbar ion-title {
+    color:black;
+    display: inline-block;
+   }
+   .logo {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+}
+.body{
+    --ion-background-color: white;
+  }
+
+.main{
+    padding-top: 0;
+}
+
+
+.profile ion-icon{
+    font-size: 100px;
+}
+.check ion-icon{
+    font-size: 40px;
+    color: green;
+}
+.notif ion-icon{
+    font-size: 40px;  
+    color: grey;
+}
+.text h5{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: 'Blinker', sans-serif;
+    color: black;
+}
+.text p{
+    margin: 0;
+    padding-left:0;
+    line-height: normal;
+    text-align: justify;
+    font-family: 'Blinker', sans-serif;
+    color: black;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.notif{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    font-family: 'Blinker', sans-serif;
+}
+
+.bar {
+    text-align: center;
+    font-family: 'Blinker', sans-serif;
+    font-weight: bold ;
+}
+
+ion-select {
+    color: black;
+}

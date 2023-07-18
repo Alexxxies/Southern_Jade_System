@@ -1,0 +1,80 @@
+#input {
+  text-align: left;
+  margin: 10%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #747171;
+  padding-top: 10%;
+
+}
+
+#input p {
+  text-align: right;
+}
+
+
+#input a {
+  color: #000000;
+  font-weight: bold;
+}
+
+
+#btn p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+  margin: 0;
+  padding-top:45%;
+}
+
+#btn a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+ 
+}
+
+
+.loginpage{
+  --ion-background-color: #f8fff9;
+}
+
+
+#btn {
+text-align: center;
+padding-top: 40%;
+}
+
+
+.logbtn {
+font-weight: bold;
+width: 50%;
+}
+
+
+ion-icon {
+position:absolute;
+right: 30px;
+color:lightgray;
+top: 130px;
+padding-top: 91%;
+margin-right: 35px;
+}
+
+
+.logo {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
+
+
+}
+
+
+
+
+

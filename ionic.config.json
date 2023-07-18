@@ -1,0 +1,7 @@
+{
+  "name": "Project_Prulife",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,98 @@
+
+<ion-content [fullscreen]="true">
+    
+  <ion-toolbar class="toolbar" color="light">
+    <ion-img class="logo" src="assets\icon\logo.png">  
+    </ion-img>
+    <ion-title>Southern Jade Life Insurance</ion-title>
+  </ion-toolbar>
+  
+  <ion-toolbar>
+    <ion-title style="text-align: center;">Notify Agents</ion-title>
+  </ion-toolbar>
+
+  <ion-grid>
+    <ion-row>
+        <ion-col size="auto"> <ion-thumbnail> <img src="assets/icon/Kiery.jpg" > </ion-thumbnail> </ion-col>
+        <ion-col class="data" size="auto">
+           <h3> De Chavez, Kier Aljon </h3>
+           <p class="ID"> Agent ID: 0123</p> 
+        <p>San Pascual, Batangas</p>
+        <p>Male</p>
+        </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid class="container">
+    <ion-row>
+      <ion-col>
+        <div id="input">
+          <ion-input
+          class="underline"
+          type="Text"
+          label="Client ID"
+          labelPlacement="stacked"
+          [(ngModel)]="form.ClientID"
+          ></ion-input>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div id="input">
+          <ion-input
+          class="underline"
+          type="Text"
+          label="Email or Phone Number"
+          labelPlacement="stacked"
+          [(ngModel)]="form.Email"
+          ></ion-input>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div id="input">
+          <ion-input
+          class="underline"
+          type="Text"
+          label="Fullname"
+          labelPlacement="stacked"
+          [(ngModel)]="form.Fullname"
+          ></ion-input>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div id="input">
+          <ion-input
+          class="underline"
+          type="Text"
+          label="Reference Number"
+          labelPlacement="stacked"
+          [(ngModel)]="form.RefNumber"
+          ></ion-input>
+        </div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div id="input">
+          <ion-input
+          class="underline"
+          type="number"
+          label="Amount"
+          labelPlacement="stacked"
+          [(ngModel)]="form.Amount"
+          ></ion-input>
+        </div>
+
+<br>
+<br>
+
+        <ion-button color="success"  (click)="print()">  SUBMIT </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

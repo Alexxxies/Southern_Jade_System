@@ -1,0 +1,87 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="success">
+    <ion-title class="ion-text-center">
+      Login Page
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true" class="loginpage">
+  <ion-header collapse="condense">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<script src="login.js"></script>
+
+
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+
+  <div id="logo">
+    <ion-grid>
+      <ion-row class="ion-align-items-center">
+        <ion-col class="ion-text-center">
+          <ion-img class="logo" src="assets\icon\logajade.png">
+          </ion-img>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  <div id="container">
+    <ion-grid>
+      <ion-row class="ion-align-items-center">
+        <ion-col class="ion-text-center">
+          <ion-img src="assets\icon\jade.png">
+          </ion-img>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+    </div>
+
+
+  <div id="input">
+        <ion-input
+        type="email"
+        label="Username, Email, Phone Number"
+        labelPlacement="floating"
+        errorText="Invalid email"
+        [clearInput]="true"
+        [(ngModel)]="form.email"
+       
+      ></ion-input>
+      <ion-input
+      [type]="passwordType"
+      id="pswrd"
+      label="Password"
+      labelPlacement="floating"
+      errorText="Invalid password"
+      [clearInput]="true"
+      [(ngModel)]="form.password"
+     
+      ></ion-input>
+     
+     <p><a rel="noopener noreferrer" routerLink="/forgot">Forgot Password?</a></p>
+    </div>
+    <div>
+      <ion-icon [class]="eyeType" (click)="togglePassword()" ></ion-icon>
+    </div>
+
+
+
+
+
+
+<div id="btn">
+    <ion-button class="logbtn" color="success" (click) ="goToClient()"  (click)="print()">Client Login </ion-button> <br>
+    <ion-button class="logbtn" color="success" (click) ="goToAgent()"  (click)="print()">Agent Login</ion-button> <br>
+   <br> <p>Don't have an account? <a rel="noopener noreferrer" routerLink="/registration">REGISTER NOW</a></p>
+  </div>
+</ion-content>
+<script src = "showpass.js"></script>
+
+
+
+
+

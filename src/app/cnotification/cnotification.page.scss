@@ -1,0 +1,60 @@
+.body {
+    --ion-background-color: #f8fff9;
+}
+h6 {
+    color:rgb(0, 0, 0);
+    font-weight:Bolder;
+    font-family: 'Blinker', sans-serif;
+    font-size: larger;
+}
+
+p {
+    color:black;
+    font-family: 'Blinker', sans-serif;
+    font-size:large;
+
+}
+
+.toolbar {
+    text-align: center;
+    --ion-color-light: #9cf29e;
+    display: inline-block;
+}
+.logo {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+}
+.toolbar ion-title {
+ color:rgb(0, 0, 0);
+ display: inline-block;
+}
+ion-row {
+width: 100%;
+justify-content: center;
+background-color:#fdfffd;
+}
+
+
+ion-row > div{
+    width: 100%;
+    // border: 1px solid green;
+    gap: 1em;
+    padding: 6px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: solid;
+    border-left-style: hidden;
+    border-color: gray;
+    border-width: 5%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.notification h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Blinker', sans-serif;
+    color: #000000;
+}

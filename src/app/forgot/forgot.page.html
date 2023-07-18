@@ -1,0 +1,40 @@
+<ion-header [translucent]="true" class="toolbar">
+  <ion-toolbar color="light">
+    <ion-img class="logo" src="assets\icon\logo.png">  
+    </ion-img>
+    <ion-title>Southern Jade Life Insurance</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true" class="body" >
+  <ion-header collapse="condense">
+ 
+  </ion-header>
+
+
+<div class="forgotpage">
+  <h1> Oh, no! <br> I forgot </h1>
+  <p> Enter your email, phone or username and we'll send you a link to change a new password</p>
+</div>
+<div id="forgot">
+  <ion-input
+  type="email"
+  label="Username, Email, Phone Number"
+  labelPlacement="floating"
+  errorText="Invalid email"
+  [clearInput]="true"
+  ngModel
+  email
+></ion-input>
+</div>
+<div id="btn">
+  <ion-button class="logbtn" color="success" routerLink="/login" >Forgot Password </ion-button> <br>
+  <br> <p>Don't have an account? <a rel="noopener noreferrer" routerLink="/registration">Sign Up</a></p>
+</div>
+</ion-content>
+
+
+
+
+

@@ -1,0 +1,100 @@
+ion-thumbnail {
+    --size: 140px;
+    --border-radius: 14px; 
+    margin-left: 9%;
+}
+
+
+
+h3 {
+    font-family: 'Blinker', sans-serif;
+padding-left: 10px ;
+font-weight: bolder;
+font-size: x-large;
+margin-top: 0;
+}
+
+.logout{
+    font-size: 30px;
+}
+
+p {
+    padding-left: 10px ;
+    font-family: 'Blinker', sans-serif;
+    line-height: 10px;
+    margin-left: 0%;
+}
+
+.Head{
+    font-weight: bolder;
+    padding: 0;
+}
+.subhead{
+    font-size:20px;
+    font-weight: 900;
+    padding: 0;
+}
+.middle{
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+//card-content
+.content{
+    text-align: center;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.check{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.x{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+.text h5{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.text p{
+    margin: 0;
+    padding-left:0;
+    line-height: normal;
+    text-align: justify;
+}
+.profile ion-icon{
+    font-size: 100px;
+}
+.check ion-icon{
+    font-size: 40px;
+    color: green;
+}
+.x ion-icon{
+    font-size: 40px;
+    color: red;
+}
+
+//header
+.logo {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+}
+.toolbar {
+    text-align: center;
+    --ion-color-light: #9cf29e;
+    display: inline-block;
+   
+
+
+}
+.toolbar ion-title {
+ color:black;
+ display: inline-block;
+
+}

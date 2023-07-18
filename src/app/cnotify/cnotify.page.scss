@@ -1,0 +1,71 @@
+.toolbar {
+    text-align: center;
+    --ion-color-light: #9cf29e;
+    display: inline-block;
+}
+.toolbar ion-title {
+    color:black;
+    display: inline-block;
+   }
+   .logo {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+}
+
+
+ion-thumbnail {
+    --size: 140px;
+    --border-radius: 14px; 
+    margin-left: 9%;
+}
+
+h3 {
+    font-family: 'Blinker', sans-serif;
+padding-left: 10px ;
+font-weight: bolder;
+font-size: x-large;
+}
+
+p {
+    padding-left: 10px ;
+    font-family: 'Blinker', sans-serif;
+    line-height: 10px;
+    margin-left: 0%;
+}
+
+.ID {
+    font-weight: bold;  
+    font-size: large;
+}
+
+.container {
+    padding-bottom: 4%;
+    margin: 5%;
+    border: 2px solid black;
+}
+
+.underline {
+    border-bottom: 1px solid black;
+}
+
+ion-button {
+
+display: flex;
+justify-content: center;
+font-size: larger;
+font-family: 'Blinker', sans-serif;
+}
+
+#input {
+    margin: 5% 5% 0 5%;
+}
+
+ion-input {
+    font-size: 25px;
+    font-family: 'Blinker', sans-serif;
+}
+
+ion-row {
+    padding: 0px;
+}

@@ -1,0 +1,121 @@
+<ion-header [translucent]="true" class="toolbar">
+  <ion-toolbar color="light">
+    <ion-img class="logo" src="assets\icon\logo.png">  
+    </ion-img>
+    <ion-title>Southern Jade Life Insurance</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content [fullscreen]="true" class="body" >
+  <ion-header collapse="condense">
+  </ion-header>
+  <div class="clientpage">
+    <h1> WELCOME! </h1>
+    <p> To our dear Clients</p>
+    <h2>Let's create an account</h2>
+  </div>
+  <div class="client">
+    <ion-input
+    class="underline"
+    type="idagent"
+    labelPlacement="floating"
+    [clearInput]="true"
+    [(ngModel)]="form.agentID"
+    >
+    <div slot="label">Angent's ID Number <ion-text color="danger">(Required)</ion-text></div>
+  </ion-input>
+ 
+  <ion-input
+    type="email"
+    label="Email"
+    labelPlacement="floating"
+    errorText="Invalid email"
+    [clearInput]="true"
+    [(ngModel)]="form.email"
+  ></ion-input>
+
+
+  <ion-input
+  class="underline"
+    type="fname"
+    label="Full Name"
+    labelPlacement="floating"
+    [clearInput]="true"
+    [(ngModel)]="form.fullname"
+  ></ion-input>
+
+
+  <ion-input
+  class="underline"
+    type="Uname"
+    label="Username"
+    labelPlacement="floating"
+    [clearInput]="true"
+    [(ngModel)]="form.username"
+  ></ion-input>
+
+
+  <ion-input
+  class="underline"
+    type="Pword"
+      id="pswrd"
+      label="Password"
+      labelPlacement="floating"
+      [clearInput]="true"
+       [(ngModel)]="form.newpassword"
+  ></ion-input>
+
+
+      <ion-input
+      class="underline"
+      type="passwordType"
+      id="pswrd"
+      label="Confirm Password"
+      labelPlacement="floating"
+      [clearInput]="true"
+      [(ngModel)]="form.Cpassword"
+      ></ion-input>
+ 
+  </div>
+  <div id="btn">
+    <ion-button class="signbtn" color="success"(click)="print()" id="open-modal" >Sign Up </ion-button><br>
+    <br><p>Have an account? <a rel="noopener noreferrer" routerLink="/login">Log In</a></p>
+  </div>
+
+  <ion-modal #modal trigger="open-modal">
+    <ng-template>
+      <ion-content>
+        <ion-toolbar>
+          <ion-title>Modal</ion-title>
+          <ion-buttons slot="end">
+            <ion-button color="light" (click)="modal.dismiss()">Close</ion-button>
+          </ion-buttons>
+        </ion-toolbar>
+        <!-- modal content -->
+        <ion-grid class="modal-grid">
+          <ion-row>
+            <ion-col size="2" class="check">
+               <ion-icon name="checkmark-circle"></ion-icon>
+            </ion-col>
+            <ion-col size="10">
+                <h1 class="text">Registration succesful!</h1>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col style="display:flex; justify-content:center;">
+              <!-- refresh for agent modal to work -->
+              <ion-button class="signbtn" color="success" (click)="print()" (click)="modal.dismiss()" routerLink="/login" >OK</ion-button><br>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-content>
+    </ng-template>
+  </ion-modal>
+
+  </ion-content>
+
+
+
+
+

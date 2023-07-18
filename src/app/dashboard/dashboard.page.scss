@@ -1,0 +1,45 @@
+
+ion-tab-bar {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    border-radius: 20px 20px 0 0;
+    --background: transparent;
+
+ion-tab-button{
+    --background: var(--ion-color-light);
+    --color: var(--ion-color-medium);
+    --color-selected: var(--ion-color-success);
+    ion-icon{
+        font-size: 2.5rem;
+         }
+    }
+}
+
+
+
+
+
+ion-tab-button .notification {
+    margin-right: 0;
+    margin-left: -2px;
+    border-top-right-radius: 20px;
+}
+
+ion-tab-button .notify  {
+    margin-left: 0;
+    margin-right: -2px;
+    border-top-right-radius: 20px;
+}
+
+ion-tab-button .history  {
+    margin-left: 2px;
+    margin-right: 0;
+    border-top-right-radius: 20px;
+}
+
+ion-tab-button .user  {
+    margin-left: 2px;
+    margin-right: 0;
+    border-top-right-radius: 20px;
+}

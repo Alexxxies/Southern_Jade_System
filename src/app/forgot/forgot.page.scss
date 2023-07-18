@@ -1,0 +1,69 @@
+.toolbar {
+    text-align: center;
+    --ion-color-light: #9cf29e;
+    display: inline-block;
+
+
+}
+.toolbar ion-title {
+ color:black;
+ display: inline-block;
+}
+.body{
+  --ion-background-color: #f8fff9;
+}
+
+
+.logo {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+}
+.forgotpage h1 {
+font-size: 55px;
+font-weight: bold;
+margin-left: 50px;
+padding-top: 30%;
+color: #000000;
+}
+.forgotpage p {
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 45px;
+    color: grey;
+}
+#forgot {
+    text-align: left;
+    margin: 10%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 45%;
+    transform: translateY(-50%);
+    color: #747171;
+  }
+#btn {
+    text-align: center;
+    padding-top: 25%;
+  }
+.logbtn {
+    font-weight: bold;
+    width: 50%;
+    margin-left: 50px;
+    margin-right: 45px;
+  }
+  #btn p {
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    margin: 0;
+    padding-top:45%;
+  }
+  #btn a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+  }
+
+
+

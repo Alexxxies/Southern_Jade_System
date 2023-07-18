@@ -1,0 +1,192 @@
+
+<ion-content [fullscreen]="true" class="body">
+
+
+  <ion-toolbar class="toolbar" color="light">
+    <ion-img class="logo" src="assets\icon\logo.png">  
+    </ion-img>
+    <ion-title>Southern Jade Life Insurance</ion-title>
+  </ion-toolbar>
+
+
+  <ion-grid>
+    <ion-row>
+        <ion-col size="auto"> <ion-thumbnail> <img src="assets/icon/Kiery.jpg" > </ion-thumbnail> </ion-col>
+        <ion-col class="data" size="6">
+           <h3> De Chavez, Kier Aljon </h3>
+           <p class="ID"> Agent ID: 0123</p> 
+        <p>San Pascual, Batangas</p>
+        <p>Male</p>
+        </ion-col>
+        <ion-col size="1">
+          <ion-icon class="logout" routerLink="/login" name="log-out-outline"></ion-icon>
+        </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-card color="success">
+<ion-grid>
+  <ion-row>
+    <ion-col size="4">
+      <div class="content">
+      <ion-card-content class="Head"> Total Client</ion-card-content>
+      <ion-card-content class="subhead">10</ion-card-content>
+      </div>
+  </ion-col>
+  <ion-col size="4" class="middle">
+    <div class="content">
+      <ion-card-content class="Head"> Today's Income </ion-card-content>
+      <ion-card-content class="subhead">₱2,500 </ion-card-content>
+    </div>
+  </ion-col>
+  <ion-col size="4">
+    <div class="content">
+      <ion-card-content class="Head"> Monthly Income </ion-card-content>
+      <ion-card-content class="subhead">₱2,500 </ion-card-content>
+    </div>
+  </ion-col>
+  </ion-row>
+  </ion-grid>
+ </ion-card>
+
+ <ion-grid>
+  <ion-row>
+
+  <ion-col size="12">
+    <div>
+      <ion-searchbar></ion-searchbar>
+    </div>
+  </ion-col>
+  </ion-row>
+  <ion-row>
+  <ion-col size="6">
+    <div>
+      <ion-select
+      interface="popover"
+      toggleIcon="caret-down-sharp"
+      expandedIcon="caret-up-sharp"
+      aria-label="fruit"
+      placeholder="All"
+      fill="outline"
+    >
+      <ion-select-option value="Filter1">Active</ion-select-option>
+      <ion-select-option value="Filter2">Inactive</ion-select-option>
+      </ion-select>
+    </div>
+  </ion-col>
+
+  <ion-col size="6">
+    <div>
+      <ion-select
+      interface="popover"
+      toggleIcon="caret-down-sharp"
+      expandedIcon="caret-up-sharp"
+      aria-label="fruit"
+      placeholder="All"
+      fill="outline"
+    >
+      <ion-select-option value="Premium">Filter1</ion-select-option>
+      <ion-select-option value="Filter2">Filter2</ion-select-option>
+      <ion-select-option value="Filter3">Filter3</ion-select-option>
+    </ion-select>
+    </div>
+</ion-col>
+
+  </ion-row>
+  </ion-grid>
+
+  <div class="container">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="auto" class="profile">
+          <ion-icon name="person-circle-outline"></ion-icon>
+        </ion-col>
+        <ion-col class="text">
+          <h5>Allysa Jane Catibog</h5>
+          <p> Client ID: 01234</p>
+          <p>Payment Status: Paid</p>
+        </ion-col>
+        <ion-col size="auto" class="check">
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="auto" class="profile">
+          <ion-icon name="person-circle-outline"></ion-icon>
+        </ion-col>
+        <ion-col class="text">
+          <h5>Jasmine Ramos</h5>
+          <p>Client ID: 01234</p>
+          <p>Payment Status: Pendimg</p>
+        </ion-col>
+        <ion-col size="auto" class="x">
+          <ion-icon name="close-circle"></ion-icon>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="auto" class="profile">
+          <ion-icon name="person-circle-outline"></ion-icon>
+        </ion-col>
+        <ion-col class="text">
+          <h5>Janelle Adrianna Casabuena</h5>
+          <p>Client ID: 01234</p>
+          <p>Payment Status: Pending</p>
+        </ion-col>
+        <ion-col size="auto" class="x">
+          <ion-icon name="close-circle"></ion-icon>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="auto" class="profile">
+          <ion-icon name="person-circle-outline"></ion-icon>
+        </ion-col>
+        <ion-col class="text">
+          <h5>Kevin Jumarang</h5>
+          <p>Client ID: 01234</p>
+          <p>Payment Status: Paid</p>
+        </ion-col>
+        <ion-col size="auto" class="check">
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="auto" class="profile">
+          <ion-icon name="person-circle-outline"></ion-icon>
+        </ion-col>
+        <ion-col class="text">
+          <h5>Lance Krhistian Manalo</h5>
+          <p>Client ID: 01234</p>
+          <p>Payment Status: Pending</p>
+        </ion-col>
+        <ion-col size="auto" class="x">
+          <ion-icon name="close-circle"></ion-icon>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="auto" class="profile">
+          <ion-icon name="person-circle-outline"></ion-icon>
+        </ion-col>
+        <ion-col class="text">
+          <h5>James Andrew Castillo</h5>
+          <p>Client ID: 01234</p>
+          <p>Payment Status: Paid</p>
+        </ion-col>
+        <ion-col size="auto" class="check">
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="auto" class="profile">
+          <ion-icon name="person-circle-outline"></ion-icon>
+        </ion-col>
+        <ion-col class="text">
+          <h5>John Patrick Limpiada</h5>
+          <p>Client ID: 01234</p>
+          <p>Payment Status: Paid</p>
+        </ion-col>
+        <ion-col size="auto" class="check">
+          <ion-icon name="checkmark-circle"></ion-icon>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
